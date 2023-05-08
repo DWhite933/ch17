@@ -37,6 +37,3 @@ for i in cursor.description:
 
 df = pd.DataFrame(data=cursor, columns=cols)
 print(df)
-
-# debug eof
-print()
