@@ -26,7 +26,6 @@ cursor = db.cursor()
 # select all data from titles table
 cursor = cursor.execute('SELECT * FROM titles')
 
-#cursor.fetchall()
 
 # list to hold columns
 cols = []
